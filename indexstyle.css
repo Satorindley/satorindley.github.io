@@ -17,6 +17,11 @@ h1 {
 p {
     margin: 20px;
 }
+
+img {
+  margin: 20px;
+}
+
 ul.topnav {
     list-style-type: none;
     margin: 0;
@@ -55,9 +60,5 @@ header: hover {
         float: none;
         text-align: center;
     }
-    
+
 }
-
-
-
-
