@@ -9,6 +9,10 @@ header {
 }
 
 
+mark {
+    color: blue;
+}
+
 h1 {
     font-family: 'Montserrat', sans-serif;
     margin: 20px;
