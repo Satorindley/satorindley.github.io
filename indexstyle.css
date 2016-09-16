@@ -35,7 +35,7 @@ ul.topnav {
 }
 
 ul.topnav li {
-    float: left;
+    float: center;
 }
 ul.topnav li a {
     display: inline-block;
