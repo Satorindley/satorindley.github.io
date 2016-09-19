@@ -9,7 +9,7 @@ p {
 
 p:hover, {
     background-color: red;
-    color: white
+    color: white;
 }
 
 correct:hover {
