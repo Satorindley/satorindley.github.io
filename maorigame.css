@@ -5,10 +5,12 @@ h1 {
 
 p {
 	font-family: 'Montserrat';
+
 }
 
-p:hover, {
+p:hover {
     background-color: red;
+    padding: 4px;
     color: white
 }
 
