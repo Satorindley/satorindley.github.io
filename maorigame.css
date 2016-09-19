@@ -12,6 +12,6 @@ p:hover, {
     color: white;
 }
 
-correct:hover {
+p correct:hover {
 	background-color: green;
 }
