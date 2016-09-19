@@ -9,9 +9,9 @@ p {
 
 p:hover, {
     background-color: red;
-    color: white;
+    color: white
 }
 
-p correct:hover {
+p.correct:hover {
 	background-color: green;
 }
