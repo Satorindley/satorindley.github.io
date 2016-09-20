@@ -2,31 +2,28 @@ h1 {
 	font-family: 'Montserrat';
 }
 
-
-p {
-	font-family: 'Montserrat';
-
-}
-
 b {
 	font-family: 'Montserrat';
 
 }
 
-p:hover {
-    background-color: red;
-    color: white
-}
-p {
+p>span {
+	font-family: 'Montserrat';
 	transition: all .2s ease-in-out;
 }
 
-p.correct:hover {
-	background-color: green;
-	padding: 4px;
+
+p>span:hover {
+	background-color: red;
+	color: white;
+	padding: 10px;
 }
 
-p:hover {
-	background-color: red;
-	padding: 4px;
+
+
+
+
+p.correct>span:hover {
+	background-color: green;
+	padding: 10px;
 }
