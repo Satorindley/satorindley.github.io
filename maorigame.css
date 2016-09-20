@@ -2,6 +2,27 @@ h1 {
 	font-family: 'Montserrat';
 }
 
+
+@keyframes grow {
+	from {
+		color: red;
+	}
+
+	to {
+		color: black;
+	}
+
+}
+
+
+h1 {
+	animation-name: grow;
+	animation-duration: 2s;
+	animation-iteration-count: 99999;
+	animation-timing-function: ease-in;
+
+}
+
 b {
 	font-family: 'Montserrat';
 
