@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>michael bennett</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:500" rel="stylesheet">
+    <link rel="stylesheet" href="css/baguetteBox.min.css">
+    <script src="jquery.localscroll.js" type="text/javascript"></script> 
+    <script src="jquery.scrollTo.js" type="text/javascript"></script> 
+    <script src="js/baguetteBox.min.js" async></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+</head>
+
+
+	<header>
+
+        
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+        
+			<h1 id="title">michael bennett watercolour</h1>
+        
+    <div id="nav">
+        <ul class="navbar">
+            <li><a class="scroll2016" href="#2016">2016</a></li>
+            <li><a href="#2015">2015</a></li>
+        </ul>
+    </div>  
+        
+	</header>
+<body>
+    <h1 id="hi"><strong>i'm michael</strong></h1>
+    
+    <img class ="michael" src="micheal.jpg">
+    <h2>i don't like capital letters</h2>
+    
+
+
+    <a href="#" class="scrollToTop"></a>
+    <script>
+    $(document).ready(function(){
+	
+	//Check to see if the window is top if not then display button
+	$(window).scroll(function(){
+		if ($(this).scrollTop() > 100) {
+			$('.scrollToTop').fadeIn();
+		} else {
+			$('.scrollToTop').fadeOut();
+		}
+	});
+	
+	//Click event to scroll to top
+	$('.scrollToTop').click(function(){
+		$('html, body').animate({scrollTop : 0},800);
+		return false;
+	});
+	
+});
+    </script> 
+    
+   
+
+
+</body>
+    
+    <main>
+    <p id="2016" class="year">2016</p>
+        
+    <script>baguetteBox.run('.paintings');</script>
+        
+        <a href="gerberas.jpg" data-caption="image caption">
+            <img class="paintings" src="gerberas.jpg">
+        </a>
+        
+        <a href="garden.jpg" data-caption="image caption">
+            <img class="paintings" src="garden.jpg">
+        </a>
+        
+        <a href="flowers.jpg" data-caption="image caption">
+            <img class="paintings" src="flowers.jpg">
+        </a>
+        
+         <a href="boat.jpg" data-caption="image caption">
+             <img class="paintings" src="boat.jpg">
+        </a>
+        
+        <a href="boat2.jpg" data-caption="image caption">
+            <img class="paintings" src="boat2.jpg">
+        </a>
+        
+        <a href="boat3.jpg" data-caption="image caption">
+            <img class="paintings" src="boat3.jpg">
+        </a>
+        
+         <a href="hydrangea.jpg" data-caption="image caption">
+            <img class="paintings" src="hydrangea.jpg">
+        </a>
+        
+        <a href="hydrangeas2.jpg" data-caption="image caption">
+            <img class="paintings" src="hydrangeas2.jpg">
+        </a>
+        
+        <a href="statehighway1wgtn.jpg" data-caption="image caption">
+            <img class="paintings" src="statehighway1wgtn.jpg">
+        </a>
+        
+        <a href="lakekuratau.jpg" data-caption="image caption">
+            <img class="paintings" src="lakekuratau.jpg">
+        </a>
+        
+        <a href="shed22.jpg" data-caption="image caption">
+        <img class="paintings" src="shed22.jpg">
+        </a>
+        
+        <a href="mahia.jpg" data-caption="image caption">
+        <img class="paintings" src="mahia.jpg">
+        </a>
+        
+        <p id="2015" class="year">2015</p>
+        <a href="mahia2015.jpg" data-caption="image caption">
+            <img class="paintings" src="mahia2015.jpg">
+        </a>
+        
+        
+        
+    </main>
+</html>
