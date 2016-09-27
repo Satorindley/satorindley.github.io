@@ -7,19 +7,21 @@ h1.title {
 }
 
 .scrollToTop{
-	width:100px; 
-	height:120px;
+	width:120px; 
+	height: 140px;
 	padding:0px; 
 	text-align:center; 
 	text-decoration: none;
 	position:fixed;
-    right: 10px;
-    bottom: 10px;
+    right: 5px;
+    bottom: 5px;
 	display: none;
 	background: url('top.png') no-repeat 0px 20px;
 }
 .scrollToTop:hover{
-	text-decoration:none;
+	opacity: 0.5;
+    transition: 0.5s;
+    transition-timing-function: ease-in-out
 }
 
 
