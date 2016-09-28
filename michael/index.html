@@ -60,10 +60,10 @@ $(document).ready(function(){
         
 	</header>
 <body>
-    <h1 id="hi"><strong>i'm michael</strong></h1>
+    <h1 class="about" id="hi"><strong>i'm michael</strong></h1>
     
     <img class ="michael" src="micheal.jpg">
-    <h2>i don't like capital letters</h2>
+    <h2 class="about">i don't like capital letters</h2>
     
 
 
@@ -96,8 +96,19 @@ $(document).ready(function(){
     
     <main>
     <p id="2016" class="year">2016</p>
+      <style>
+          
+          @media (max-height: 400px) and (orientation: landscape) { main {
+              text-align: center;
+              margin-left: 90px;
+              margin-right: auto;
+              }
+          
+          }
         
-    <script>baguetteBox.run('.paintings');</script>
+        
+        </style>  
+
         
         <a href="gerberas.jpg" data-caption="image caption">
             <img class="paintings" src="gerberas.jpg">

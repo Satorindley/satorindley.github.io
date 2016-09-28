@@ -1,9 +1,6 @@
 h1.title {
     color: white;
     background-color: black;
-    
-    
- 
 }
 
 .scrollToTop{
@@ -30,48 +27,65 @@ h1.title {
     margin: 0;
     margin-top: -77px;
     padding: 10px;
-    text-align: center;
+    text-align: left;
     display: block;
+    color: white;
 }
 
 .navbar li {
     padding: 10px;
+    color: white;
+    text-align: left;
+    display: block;
 }
 
 .navbar a {
     color: white;
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
-    font-size: 35px;    
+    font-size: 35px; 
+    text-align: left;
+    display: block;
 }
 
 img.michael {
     display: block;
-    margin-left: auto;
+    margin-left: 20px;
     margin-right: auto;
-    width: 300px;
+    width: 150px;
     border-radius: 50%;
 }
 
 img.paintings {
-    margin: 114px;
-    width: 400px;
+    margin: 100px;
+    margin-left: 20px;
+    width: 600px;
     height: auto;
     align-items: center;
     
     
 }
 
-h1, h2 {
+h1 {
     font-family: 'Poppins', sans-serif;
-    text-align: center;
-    padding: 40px;
-    
+    padding: 20px;
+    margin-bottom: 50px;
 }
 
-h1.hi {
-    color: black;
-    opacity: 100%;
+h1.about {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 50px;
+}
+
+h1.about, h2.about {
+    font-family: 'Poppins', sans-serif;
+    margin-left: 0px;  
+}
+
+h2.about {    
+    margin-left: 20px;
+    margin-bottom: 100px;
 }
 
 
@@ -87,6 +101,8 @@ header {
     
 }
 
+
+
 body {
     background-color:rgba(255, 255, 255, 1)
     
@@ -94,8 +110,8 @@ body {
 
 
 p.year {
-    margin: 114px;
-    margin-bottom: -100px;
+    margin-left: 20px;
+    margin-bottom: -70px;
     font-family: 'Poppins', sans-serif;
     font-size: 50px;
 }
