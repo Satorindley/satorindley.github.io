@@ -39,8 +39,12 @@ img.Bede {
     animation-name: slideDown;
     animation-duration: 4s;
     animation-name: fadeIn;
+	transition: all .3s ease-in-out;
     
 }
+
+img.Bede:hover {
+	transform scale(1.2):
 
 h4 {
     animation-name: fadeIn;
