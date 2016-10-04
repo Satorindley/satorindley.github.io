@@ -40,7 +40,6 @@ img.Bede {
 img {
     width: auto;
     height: 200px;
-    border-radius: 50%;
     display: block;
     margin: auto;
     vertical-align: middle;
@@ -90,7 +89,8 @@ p {
 img {
   display: block;
   margin: auto;
-    margin-top: 20px;
+  margin-top: 20px;
+  
     
     
 }

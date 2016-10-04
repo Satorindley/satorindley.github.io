@@ -34,6 +34,8 @@
 
   <script type="text/javascript">
 <!--
+    
+
  var imlocation = "images/";
  var currentdate = 0;
  var image_number = 0;
@@ -45,12 +47,15 @@
  }
       
       
- image = new ImageArray(4)
+ image = new ImageArray(8)
  image[0] = 'BedeBowTieBlueTie.png'
  image[1] = 'BedeBowTieWhiteShirt.png'
  image[2] = 'BedeBowTieStpats.png'
  image[3] = 'BedeBowTie.png'
- 
+ image[4] = 'BedeBowBlackShirtBlueTie.png'
+ image[5] = 'BedeBowBlackShirtRedTie.png'
+ image[6] = 'BedeBowBlackShirtWhiteTie.png'
+ image[7] = 'BedeBowTieBlueShirt.png'
       
             
 
@@ -63,6 +68,9 @@
  	return(image[image_number])
  }
  document.write("<img src='" + imlocation + randomimage()+ "'>");
+      
+      
+      document.getElementsByTagName("IMG")[0].setAttribute("class", "Bede");
 //-->
 </script>
         
