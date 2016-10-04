@@ -8,19 +8,8 @@ header {
     font-family: 'Montserrat', sans-serif;
 }
 
-li.michaelbennettwatercolour:hover {
-	text-decoration: underline;
 
-}
 
-li.listitem: hover {
-	text-decoration: none;
-}
-
-li.listitem {
-	color: black;
-	text-decoration: none;
-}
 
 mark {
     color: blue;
@@ -31,6 +20,10 @@ h1 {
     margin: 20px;
 }
 
+img.Bede:hover {
+	transform: scale(1.2);
+}
+
 img.Bede {
     border-radius: 50%;
     display: block;
@@ -39,16 +32,23 @@ img.Bede {
     animation-name: slideDown;
     animation-duration: 4s;
     animation-name: fadeIn;
-	transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
     
 }
 
-img.Bede:hover {
-	transform: scale(1.2);
-}
-h4 {
+
+img {
+    width: auto;
+    height: 200px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    vertical-align: middle;
+    animation-name: slideDown;
+    animation-duration: 4s;
     animation-name: fadeIn;
-    animation-duration: 2s;
+    transition: all .3s ease-in-out;
+    
 }
 @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 
@@ -74,6 +74,8 @@ h4 {
 	}		
 }
 
+
+
 h1.Welcome {
     text-align: center;
     animation-name: slideDown;
@@ -86,7 +88,11 @@ p {
 }
 
 img {
-  margin: 20px;
+  display: block;
+  margin: auto;
+    margin-top: 20px;
+    
+    
 }
 
 ul.topnav {
@@ -94,7 +100,7 @@ ul.topnav {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: darkorange;
+    background-color: dodgerblue;
 }
 
 ul.topnav li {
@@ -127,6 +133,10 @@ header: hover {
 @media screen and (max-width:600px) {
     ul.topnav li {
         float: none;
+        text-align: center;
+    }
+    
+    h4 {
         text-align: center;
     }
 
