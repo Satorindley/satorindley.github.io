@@ -74,6 +74,18 @@
 //-->
 </script>
         
+        
+        <script>
+$.preloadImages = function() {
+  for (var i = 0; i < arguments.length; i++) {
+    $("<img />").attr("src", arguments[i]);
+  }
+}
+
+$.preloadImages("BedeBowTieBlueTie.png","BedeBowTieWhiteShirt.png", "BedeBowTieStpats.png", "BedeBowTie.png", "BedeBowBlackShirtBlueTie.png", "BedeBowBlackShirtRedTie.png" "BedeBowBlackShirtWhiteTie.png", "BedeBowTieBlueShirt.png");
+
+</script>
+        
         <h1 class="Welcome">Welcome!</h1>
         <h4 class="Bede" style="text-align: center;">I can't draw face details :(</h4>
 
