@@ -8,6 +8,19 @@ header {
     font-family: 'Montserrat', sans-serif;
 }
 
+li.michaelbennettwatercolour:hover {
+	text-decoration: underline;
+
+}
+
+li.listitem: hover {
+	text-decoration: none;
+}
+
+li.listitem {
+	color: black;
+	text-decoration: none;
+}
 
 mark {
     color: blue;
@@ -27,6 +40,11 @@ img.Bede {
     animation-duration: 4s;
     animation-name: fadeIn;
     
+}
+
+h4 {
+    animation-name: fadeIn;
+    animation-duration: 2s;
 }
 @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 
