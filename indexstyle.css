@@ -94,7 +94,7 @@ ul.topnav {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(216, 44, 32);
+    background-color: darkorange;
 }
 
 ul.topnav li {
@@ -112,7 +112,7 @@ ul.topnav li a {
 }
 
 ul.topnav li a:hover {
-    background-color: rgb(177, 37, 37);
+    transform: scale(1.2);
 }
 
 header: hover {
