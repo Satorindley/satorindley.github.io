@@ -44,7 +44,7 @@ img.Bede {
 }
 
 img.Bede:hover {
-	transform scale(1.2);
+	transform: scale(1.2);
 }
 h4 {
     animation-name: fadeIn;
