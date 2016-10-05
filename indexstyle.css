@@ -9,7 +9,11 @@ header {
 }
 
 
-
+img.sculpture {
+    display: grid;
+    width: 300px;
+    height: auto;
+}
 
 mark {
     color: blue;
