@@ -10,9 +10,11 @@ header {
 
 
 img.sculpture {
-    display: grid;
+    display: block;
     width: 300px;
     height: auto;
+    animation-name: fadeIn;
+    transition: all .3s ease-in-out;
 }
 
 mark {
