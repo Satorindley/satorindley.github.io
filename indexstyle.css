@@ -33,10 +33,11 @@ img.Bede:hover {
 img.Bede {
     border-radius: 50%;
     display: block;
+    width: auto;
+    height: 200px;
     margin-left: auto;
     margin-right: auto;
-    animation-name: slideDown;
-    animation-duration: 4s;
+    vertical-align: middle;
     animation-name: fadeIn;
     transition: all .3s ease-in-out;
     
@@ -44,16 +45,15 @@ img.Bede {
 
 
 img {
-    width: auto;
-    height: 200px;
-    display: block;
-    margin: auto;
-    vertical-align: middle;
-    animation-name: slideDown;
-    animation-duration: 4s;
     animation-name: fadeIn;
+    animation-duration: 4s;
     transition: all .3s ease-in-out;
-    
+}
+
+
+img.gallery {
+    float: left;
+    height: auto;
 }
 @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 
@@ -109,9 +109,36 @@ img {
   margin: auto;
   margin-top: 20px;
   
-    
-    
 }
+
+li.listitem {
+    color: black;
+    padding: 3px
+}
+
+a.listitem:visited, a.listitem:link, a.listitme:active
+{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border-bottom: 3px solid transparent;
+    width: 0px;
+    transition: 0.4s ease;
+    white-space: nowrap;
+    height: 25px;
+}
+/*
+a:hover.listitem {
+    transition: 0.4s;
+    border-bottom: 4px solid dodgerblue;
+    width: 150px;
+}
+*/
+
+a:hover.listitem {
+        transform:  scale(1.2)
+}
+
 
 ul.topnav {
     list-style-type: none;
