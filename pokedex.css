@@ -1,0 +1,17 @@
+.PokeImage {
+  float: right;
+  height: 50px;
+  width: auto;
+}
+.PokeText {
+  float:left;
+}
+
+li:hover {
+	
+}
+
+.PokeImage:hover{
+	transition: all 1s;
+	transform: scale(1.25);
+}
